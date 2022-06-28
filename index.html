@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/kenta-logo.webp" type="image/png" />
+    <title>KENTA</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <script src="./assets/js/main.js" defer type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="grid ">
+        <div class=" header_menu  row no-gutters">
+            <div class="img-logo col l-2">
+                <a href="#"><img src="./assets/img/logo.png" alt=""></a>
+            </div>
+            <div class=" header-right l-10 ">
+                <div class="header_search-hide">
+                    <div class="tab-search ">
+                        <p class="s-button" type="submit" href="#">
+                            <i class="fa fa-search"></i>
+                        </p>
+                        <form class="s-box" action="">
+                            <input class="s-text" type="text" placeholder="Search...">
+                        </form>
+                        <div class="close_tab-search">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-items  ">
+                    <ul class="nav">
+                        <li class="menu-items_list">
+                            <a href="#">Kính Râm</a>
+                        </li>
+                        <li class="menu-items_list">
+                            <a href="#">Giọng Kính Cận</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Giọng Kính Cận Cả Viền</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Giọng Kính Cận Nhựa</a></li>
+                                        <li><a href="#">Giọng Kính Cận Kim Loại</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Giọng Kính Cận Nửa Viền</a></li>
+                                <li><a href="#">Giọng Kính Không Viền</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Giọng Khoan Thép</a></li>
+                                        <li><a href="#">Giọng khoan Titan</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Giọng Kính Gỗ</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="menu-items_list">
+                            <a href="#">Tròng Kính</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Kính Chống Ánh Sáng xanh</a></li>
+                                <li><a href="#">Tròng Cận Thị</a></li>
+                                <li><a href="#">Tròng Viễn Thị</a></li>
+                                <li><a href="#">Tròng Kính Cận Râm</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-items_list">
+                            <a href="#">Kính Râm Cận</a>
+                        </li>
+                        <li class="menu-items_list">
+                            <a href="#">Kính Chính Hãng</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Giọng Kính Cận Ree-Man</a></li>
+                                <li><a href="#">Giọng Kính Cận Eye Plus</a></li>
+                                <li><a href="#">Kính RayBan Chính Hãng</a></li>
+                                <li><a href="#">Kính Levis Chính Hãng</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="menu-items_list">
+                            <a href="#">Sale</a>
+                        </li>
+                        <li class="menu-items_list">
+                            <a href="#">Vip Member</a>
+                        </li>
+                        <li class="menu-items_list social-network">
+                            <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="intagram" href="#"> <i class="fa-brands fa-instagram"></i></a>
+                            <a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+
+                        </li>
+                        <li class="menu-items_list">
+                            <a class="arrow-follow">Follow<br> Us</a>
+                        </li>
+                        <li class="menu-items_list">
+                            <a href="#" class="header-search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a href="" class="cart-items"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid ">
+        <div class="slides-swiper">
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="" class="img-slider"><img src="./assets/img/slide-1.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="swiper-slide"><a href="" class="img-slider"><img src="./assets/img/slide-2.png"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+        <!-- Swiper -->
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 2000,
+                },
+            });
+        </script>
+    </div>
+    <div class="grid">
+        <div class="wide row column_product">
+            <div class="column_product-number col l-o-1 l-5">
+                <img src="./assets/img/kinh-ram.png" alt="">
+                <div class="text-sub">
+                    <h1>KÍNH RÂM</h1>
+                    <h3>112 SẢN PHẨM</h3>
+                    <a href="#">Xem Ngay</a>
+                </div>
+            </div>
+            <div class="column_product-number col l-5   ">
+                <img src="./assets/img/kinh-can.png" alt="">
+                <div class="text-sub">
+                    <h1>KÍNH RÂM</h1>
+                    <h3>112 SẢN PHẨM</h3>
+                    <a href="#">Xem Ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="sales-information">
+            <div class="sales-information-text">
+                <h3>ƯU ĐÃI THÁNG NÀY</h3>
+                <h2>SALE 30%</h2>
+                <a href="#">CHI TIẾT ƯU ĐÃI</a>
+            </div>
+        </div>
+    </div>
+    <div class="grid wide">
+        <div class="fushion-info">
+            <div class="fushion-info-text col l-6">
+                <h3>EYE PLUS - CHUỖI CỬA HÀNG KÍNH MẮT UY TÍN TẠI HÀ NỘI , HCM</h3>
+                <h2>TÀI SẢN LỚN NHẤT CỦA DOANH NGHIỆP LÀ KHÁCH HÀNG</h2>
+                <p class="italic">Kính mắt Eye Plus - Trải nghiệm chất lượng kính mắt theo tiêu chuẩn quốc tế</p>
+                <p>Với 6 năm kính nghiệm trên thị trường kính mắt Việt, Eye Plus tự hào là đơn vị cung cấp các sản phẩm
+                    và dịch vụ về kính mắt uy tín tại Việt Nam. Các sản phẩm được tuyển chọn kỹ lưỡng,
+                    đạt độ tinh xảo và chất lượng cao, hướng đến trải nghiệm tốt nhất cho khách hàng.</p>
+                <p>Là một sản phẩm về sức khoẻ con người, chúng tôi “kinh doanh dựa trên sự tử tế” lấy khách hàng là
+                    trọng tâm, không ngừng thay đổi cải tiến sản phẩm cũng như dịch vụ đi kèm.
+                    Ngoài ra, hệ thống kỹ thuật viên giàu kinh nghiệm, trang thiết bị máy móc hiện đại cùng dịch vụ tư
+                    vấn tận tâm giúp Eye Plus trở thành địa chỉ tin cậy đồng hành cùng hàng triệu khách hàng Việt.</p>
+            </div>
+            <div class="fushion-info-img col l-5 l-o-1">
+                <div><img src="/assets/img/chat-luong.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="grid wide">
+        <div class="advantage-info">
+            <div class="advantage-info-items ">
+                <div class="advantage-info-img">
+                    <img src="./assets/img/sunglasses1.png" alt="mauma">
+                    <h3>MẪU MÃ ĐA DẠNG</h3>
+                </div>
+                <div class="advantage-info-text">
+                    <p>Thấu hiểu thị hiếu khách hàng, mẫu mã của Eye Plus đa dạng, phù hợp với nhiều yêu cầu khác nhau.
+                    </p>
+                </div>
+            </div>
+            <div class="advantage-info-items ">
+                <div class="advantage-info-img">
+                    <img src="./assets/img/medal1.png" alt="mauma">
+                    <h3>CHẤT LƯỢNG ĐI ĐẦU</h3>
+                </div>
+                <div class="advantage-info-text">
+                    <p>Các sản phẩm được chọn lựa kỹ lưỡng, độ tinh xảo cao đi cùng chuyên viên kinh nghiệm và máy móc
+                        tiên tiến, hiện đại.</p>
+                </div>
+            </div>
+            <div class="advantage-info-items ">
+                <div class="advantage-info-img">
+                    <img src="./assets/img/piggy-bank1.png" alt="mauma">
+                    <h3> GIÁ CẢ HỢP LÝ</h3>
+                </div>
+                <div class="advantage-info-text">
+                    <p>Mức giá cạnh tranh tương xứng với chất lượng, nhiều chương trình ưu đãi và chế độ bảo hành hậu
+                        mãi .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid wide">
+        <div class="partner-items">
+            <div class="partner-item-text">
+                <h3> ĐỐI TÁC HÀNG ĐẦU</h3>
+            </div>
+            <div class="partner-item-img">
+                <div class="partner-items-list"><img src="./assets/img/partner-1.png" alt=""></div>
+                <div class="partner-items-list"><img src="./assets/img/partner-2.png" alt=""></div>
+                <div class="partner-items-list"><img src="./assets/img/partner-3.png" alt=""></div>
+                <div class="partner-items-list"><img src="./assets/img/partner-4.png" alt=""></div>
+                <div class="partner-items-list"><img src="./assets/img/partner-5.png" alt=""></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="grid wide">
+        <div class="product-items">
+            <div class="product-item-text">
+                <h3>MẪU KÍNH MẮT MỚI</h3>
+            </div>
+            <div class="product-item-lists">
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/mk1.jpg" alt="">
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">KHĂN NANO CHỐNG BÁM HƠI NƯỚC</a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-new">10.000 Đ</div>
+                    </div>
+                </div>
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/mk2.jpg" alt="">
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">ĐỆM MŨI SILICONE CHỐNG TỤT KÍNH</a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-new">10.000 Đ</div>
+                    </div>
+                </div>
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/mk3.png" alt="">
+                        <div class="lable-sticker">
+                            SALE!
+                        </div>
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">KHĂN NANO CHỐNG BÁM HƠI NƯỚC</a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-old">500.000 Đ</div>
+                        <div class="price-new">350.000 Đ</div>
+                    </div>
+                </div>
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/mk4.jpg" alt="">
+                        <div class="lable-sticker">
+                            SALE!
+                        </div>
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">GỌNG KÍNH CẬN UNISEX N240 L004 C2
+                        </a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-old">240.000 Đ</div>
+                        <div class="price-new">168.000 Đ</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-item-button">
+                <a href="#">XEM THÊM</a>
+            </div>
+        </div>
+    </div>
+    <div class="grid wide">
+        <div class="product-items">
+            <div class="product-item-text">
+                <h3>SẢN PHẨM CHÍNH HÃNG</h3>
+            </div>
+            <div class="product-item-lists">
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/sp1.png" alt="">
+                        <div class="lable-sticker">
+                            SALE!
+                        </div>
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">KÍNH RÂM THỜI TRANG REEMAN 18146 C2 GỌNG ĐEN MẮT KHÓI</a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-old">550.000 Đ</div>
+                        <div class="price-new">385.000 Đ</div>
+                    </div>
+                </div>
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/mk3.png" alt="">
+                        <div class="lable-sticker">
+                            SALE!
+                        </div>
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">KHĂN NANO CHỐNG BÁM HƠI NƯỚC</a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-old">500.000 Đ</div>
+                        <div class="price-new">350.000 Đ</div>
+                    </div>
+                </div>
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/mk3.png" alt="">
+                        <div class="lable-sticker">
+                            SALE!
+                        </div>
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">KHĂN NANO CHỐNG BÁM HƠI NƯỚC</a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-old">500.000 Đ</div>
+                        <div class="price-new">350.000 Đ</div>
+                    </div>
+                </div>
+                <div class="product col l-3">
+                    <div class="product-item-lists-img">
+                        <img src="./assets/img/mk4.jpg" alt="">
+                        <div class="lable-sticker">
+                            SALE!
+                        </div>
+                    </div>
+                    <div class="product-item-lists-title">
+                        <a href="#">GỌNG KÍNH CẬN UNISEX N240 L004 C2
+                        </a>
+                    </div>
+                    <div class="product-item-lists-price">
+                        <div class="price-old">240.000 Đ</div>
+                        <div class="price-new">168.000 Đ</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-item-button">
+                <a href="#">XEM THÊM</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
