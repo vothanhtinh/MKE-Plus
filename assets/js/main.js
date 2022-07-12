@@ -35,13 +35,15 @@ close_formSearch.addEventListener('click',show);
 var header = document.querySelector('.Header-menu-mobile');
  var menu = document.getElementById('mobile-bar');
 var menu_bar=document.querySelector(".header-menu-mobile-bottom");
+
         menu.onclick = function () {
-            var isClose = header.clientHeight === 159;
+            console.log(header.clientHeight );
+            var isClose = header.clientHeight === 87;
             if (isClose) {
-                menu_bar.style.display = "none";
+                menu_bar.style.display = "block";
             }
             else {
-                menu_bar.style.display = "block";
+                menu_bar.style.display = "none";
             }
         }
 
