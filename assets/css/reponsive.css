@@ -34,9 +34,9 @@
 }
 /* Mobile & Tablet */
 @media (max-width:739px){
-    .Header-menu-mobile{
-        display: block;
-    }
+    /* .Header-menu-mobile{
+        /* display: block;
+    } */
     .hide-on-mobile{
         display: none !important;
     }
@@ -45,6 +45,7 @@
     }
     .column_product {
         flex-direction: column;
+        padding: 10px;
     }
     .column_product-number{
         margin-bottom: 20px;
@@ -58,6 +59,7 @@
     .fushion-info{
         flex-direction: column;
         justify-content: center;
+        padding: 10px;
     }
     .blog-item:first-child{
         padding-left: 15px;
@@ -71,6 +73,7 @@
     .advantage-info{
         flex-direction: column;
         justify-content: center;
+        padding: 10px;
 
     }
     .advantage-info-items:first-child {

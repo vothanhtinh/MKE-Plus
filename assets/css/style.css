@@ -324,7 +324,6 @@ font-size: 15px;
 }
 .fushion-info-img img{
     object-fit: cover;
-    width: 100%;
 }
 .fushion-info-img>div{
 overflow: hidden;
@@ -698,12 +697,13 @@ div#message img{
 .Header-menu-mobile{
     width: 100%;
     display: none;
-    height: auto;
+    /* height: auto; */
     position: fixed;
     z-index: 99999;
     background-color: #fcfcfc;
     display: flex;
     flex-direction: column;
+   
 }
 .header-menu-mobile-top{
     width: 100%;
@@ -784,5 +784,58 @@ div#message img{
 }
 .header-menu-mobile-bottom{
     display: none;
+   
 }
-  
+.header-menu-mobile-bottom{
+    background-color: #ffffff;
+    z-index: 99999999999;
+    /* position: relative; */
+    height:100% ;
+    top: 87px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+
+ul#nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    
+}
+   
+#nav li{
+    padding: 20px 0;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #212934;
+    font-weight: bold;
+}
+.social-mobile a{
+    padding: 10px 10px;
+}
+.social-mobile i{
+    font-size: 13px;
+    padding-top: 6px;
+    border-radius: 50%;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+.social-mobile .facebook i{
+    background: #4861AF;
+   
+    
+  }
+  .social-mobile .intagram i{
+    background-color: indianred;
+  }
+  .social-mobile .youtube i{
+    background-color: red;
+  }

@@ -37,12 +37,14 @@ var header = document.querySelector('.Header-menu-mobile');
 var menu_bar=document.querySelector(".header-menu-mobile-bottom");
 
         menu.onclick = function () {
-            console.log(header.clientHeight );
-            var isClose = header.clientHeight === 87;
+            var isClose = (header.clientHeight)=== 87;
+            console.log(header.clientHeight )
             if (isClose) {
                 menu_bar.style.display = "block";
+            
             }
             else {
+              
                 menu_bar.style.display = "none";
             }
         }
