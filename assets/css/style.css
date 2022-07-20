@@ -436,9 +436,13 @@ overflow: hidden;
     position: relative;
 }
  .product-item-lists-img>img{
-    width: 100%;
-    height: 260px;
-}
+    width: 260px;
+    height: 278px;
+    background-size: cover;
+    margin: 0 -5px;
+ }
+
+
 .product-item-text >h3{
     margin-bottom: 20px;
     text-align: center;
