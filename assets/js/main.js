@@ -85,7 +85,7 @@ const app={
       ],
       products_2:[
         {
-          image:"./assets/img/sp1.png",
+          image:"https://kinhmateyeplus.com/wp-content/uploads/2022/07/IMG_4359-600x600.jpg",
           name:"KÍNH RÂM THỜI TRANG REEMAN 2312 C1 GỌNG ĐEN MẮT KHÓI",
           price_old:"550.000 Đ",
           price_new:"385.000"
@@ -118,7 +118,7 @@ const app={
                         <img id="product-img"src=${product.image} alt="">
                     </div>
                     <div class="product-item-lists-title">
-                        <a href="./pages/product-detail.html" >${product.name}</a>
+                        <a href="./product-detail.html" >${product.name}</a>
                     </div> 
                     <div class="product-item-lists-price">
                         <div class="price-old">${product.price_old}
@@ -141,7 +141,7 @@ const app={
                         <div class="lable-sticker">SALE!</div>
                     </div>
                     <div class="product-item-lists-title">
-                        <a href="./pages/product-detail.html">${product.name}</a>
+                        <a href="./product-detail.html">${product.name}</a>
                     </div>
                     <div class="product-item-lists-price">
                         <div class="price-old">
