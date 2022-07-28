@@ -280,16 +280,16 @@ font-size: 15px;
     box-shadow: rgba(40, 60, 240, 0.35) 0px 5px 15px;
 }
 .item-kinhrong{
-    background-image: url(/assets/img/mat-kinh-rong.png);
+    background-image: url(./assets/img/mat-kinh-rong.png);
     background-repeat: no-repeat;
    
 }
 .item-caukinh{
-    background-image: url(/assets/img/cau-kinh.png);
+    background-image: url(./assets/img/cau-kinh.png);
     background-repeat: no-repeat;
 }
 .item-chieudai{
-    background-image: url(/assets/img/gong-kinh.png);
+    background-image: url(./assets/img/gong-kinh.png);
    
     background-repeat: no-repeat;
 }
