@@ -115,7 +115,7 @@ const app={
             return `
             <div class="product" id="product" >
                     <div class="product-item-lists-img">
-                        <img id="product-img"src=${product.image} alt="">
+                        <img id="product-img"src="${product.image}" alt="">
                     </div>
                     <div class="product-item-lists-title">
                         <a href="./product-detail.html" >${product.name}</a>
@@ -137,7 +137,7 @@ const app={
             return `
                 <div class="product " id ="product">
                     <div class="product-item-lists-img">
-                        <img id ="product-img" src=${product.image} alt="">
+                        <img id ="product-img" src="${product.image}" alt="">
                         <div class="lable-sticker">SALE!</div>
                     </div>
                     <div class="product-item-lists-title">
@@ -168,21 +168,15 @@ const app={
 }
 app.start()
 
-//
-// function goto(img,name ,price_old,price_new){
-//    sessionStorage.setItem("image",img)
-//     sessionStorage.setItem("name",name)
-//     sessionStorage.setItem("price-old",price_old)
-//     sessionStorage.setItem("price-new",price_new)
-// }
+
 let bt=document.querySelectorAll("#product")
 
-bt.forEach(function(item){  
+bt.forEach(function(item,index){  
     item.addEventListener("click",function(){
-        let product_img=document.querySelector("#product-img")
-        let product_title=this.querySelector(".product-item-lists-title >a")
-        let product_price_old=this.querySelector(".price-old")
-        let product_price_new=this.querySelector(".price-number")
+        let product_img=document.querySelectorAll("#product-img")[index]
+        let product_title=document.querySelectorAll(".product-item-lists-title >a")[index]
+        let product_price_old=document.querySelectorAll(".price-old")[index]
+        let product_price_new=document.querySelectorAll(".price-number")[index]
         sessionStorage.setItem("image",product_img.src)
         sessionStorage.setItem("name",product_title.innerHTML)
         sessionStorage.setItem("price-old",product_price_old.innerHTML)

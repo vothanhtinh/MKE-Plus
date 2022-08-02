@@ -129,7 +129,7 @@ html{
     background-color: red;
   }
   .menu-items_list .arrow-follow{
-    background:url(/assets/img/arrow.png) no-repeat;
+    background:url('https://kinhmateyeplus.com/wp-content/themes/Avada-Child-Theme/img/arrow.png') no-repeat;
     padding-top: 10px;
     font-weight: normal;
     padding-left: 44px;
