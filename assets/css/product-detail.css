@@ -582,7 +582,6 @@ div#message img{
 /* Menu Header */
 .Header-menu-mobile{
     width: 100%;
-    display: none;
     /* height: auto; */
     /* position: fixed; */
     z-index: 99999;

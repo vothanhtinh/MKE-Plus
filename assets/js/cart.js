@@ -31,23 +31,23 @@ function show() {
 
 button_search.addEventListener('click', hide);
 close_formSearch.addEventListener('click', show);
-// // Mobile Menu
-// var header = document.querySelector('.Header-menu-mobile');
-//  var menu = document.getElementById('mobile-bar');
-// var menu_bar=document.querySelector(".header-menu-mobile-bottom");
+// Mobile Menu
+var header = document.querySelector('.Header-menu-mobile');
+ var menu = document.getElementById('mobile-bar');
+var menu_bar=document.querySelector(".header-menu-mobile-bottom");
 
-//         menu.onclick = function () {
-//             var isClose = (header.clientHeight)=== 87;
-//             console.log(header.clientHeight )
-//             if (isClose) {
-//                 menu_bar.style.display = "block";
+        menu.onclick = function () {
+            var isClose = (header.clientHeight)=== 87;
+            console.log(header.clientHeight )
+            if (isClose) {
+                menu_bar.style.display = "block";
 
-//             }
-//             else {
+            }
+            else {
 
-//                 menu_bar.style.display = "none";
-//             }
-//         }
+                menu_bar.style.display = "none";
+            }
+        }
 
 
 var tbody = document.querySelector("tbody")
