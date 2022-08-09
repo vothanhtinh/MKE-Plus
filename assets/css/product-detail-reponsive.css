@@ -84,14 +84,23 @@
     .Header-menu-mobile{
         display: block;
     }
+   
     .hide-on-mobile{
         display: none !important;
     }
     .fushion-page-title:first-child {
         margin-left: 0px;
     }
+    .product-information{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .information-store{
         flex-direction: column;
+    }
+    .add-to-cart>.button-add {
+        padding-left: 0;
+        margin-top: 10px;
     }
     .information-store-left .map iframe{
         width: 100%;
